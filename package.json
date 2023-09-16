@@ -14,6 +14,9 @@
   ],
   "author": "Praza",
   "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0"
+  },
   "bugs": {
     "url": "https://github.com/wearepraza/box/issues"
   },
