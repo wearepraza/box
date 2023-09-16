@@ -8,7 +8,9 @@
     "url": "git+https://github.com/wearepraza/box.git"
   },
   "keywords": [
-    "css"
+    "css",
+    "scss",
+    "cli"
   ],
   "author": "Praza",
   "license": "MIT",
