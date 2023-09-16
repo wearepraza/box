@@ -24,4 +24,11 @@ program
         updateCommand();
     });
 
+program
+    .command('help')
+    .description('Shows How To Use The Box')
+    .action(() => {
+        updateCommand();
+    });
+
 program.parse(process.argv);
