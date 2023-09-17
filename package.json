@@ -1,0 +1,24 @@
+{
+  "name": "box",
+  "version": "0.0.1",
+  "description": "Box, A Customizable CSS Framework.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearepraza/box.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "cli"
+  ],
+  "author": "Praza",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/wearepraza/box/issues"
+  },
+  "homepage": "https://github.com/wearepraza/box#readme"
+}

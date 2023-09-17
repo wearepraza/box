@@ -1,4 +1,10 @@
 {
+    "modules": {
+        "grid": "true",
+        "flex": "true",
+        "utilities": "true"
+    },
+
     "spacing": {
         "unit": "px",
         "base-spacing": "5"
@@ -7,8 +13,8 @@
     "colors": {
         "primary-color": "#000",
         "secondary-color": "#000",
-        "text-color": "000",
-        "background-color": "000"
+        "text-color": "#000",
+        "background-color": "#000"
     },
 
     "typography": {
