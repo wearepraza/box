@@ -1,5 +1,20 @@
+// imports
+@import './variables/variables';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+// button
+.button {
+    color: $on-primary-color;
+    background-color: $primary-color;
+    padding: 5px 25px;
+    border: none;
+
+    &:hover {
+        background-color: $primary-color-hover;
+    }
 }

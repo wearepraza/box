@@ -1,4 +1,18 @@
-// colors
+// primary color
 $primary-color: #0443C9;
+$on-primary-color: #fff;
 $primary-color-hover: #043DBA;
-$accent-color: #f5f5f5;
+$primary-container: #dce1ff;
+$on-primary-container: #001550;
+
+// error color
+$error-color: #ba1a1a;
+$on-error-color: #ffffff;
+$error-color-hover: #ae1919;
+$error-container: #ffdad6;
+$on-error-container: #410002;
+
+// radius
+$default-radius: 25px;
+$parent-radius: $default-radius;
+$child-radius: $parent-radius / 2;
