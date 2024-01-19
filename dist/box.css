@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "vazir-thin";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-Thin.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir-extra-light";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-ExtraLight.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir-light";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-Light.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir-regular";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir-medium";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-Medium.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir-semi-bold";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-SemiBold.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir-bold";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-Bold.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir-extra-bold";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-ExtraBold.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir-black";
+  src: url("../fonts/vazirmatn/Vazirmatn-RD-Black.woff2") format("woff2");
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: vazir-regular;
+}
+
+.filled-button {
+  font-size: 16px;
+  color: #fff;
+  background-color: #0443C9;
+  padding: 5px 25px;
+  border: 1px solid #0443C9;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.filled-button:hover {
+  border: 1px solid #0339AB;
+  background-color: #0339AB;
+}
+
+.filled-tonal-button {
+  font-size: 16px;
+  color: #001550;
+  background-color: #dce1ff;
+  padding: 5px 25px;
+  border: 1px solid #dce1ff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.filled-tonal-button:hover {
+  border: 1px solid #B9C4FF;
+  background-color: #B9C4FF;
+}
+
+.outlined-button {
+  font-size: 16px;
+  color: #0443C9;
+  background-color: rgba(4, 67, 201, 0);
+  padding: 5px 25px;
+  outline: none;
+  border: 1px solid #0443C9;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.outlined-button:hover {
+  background-color: #0443C9;
+  color: #fff;
+}/*# sourceMappingURL=box.css.map */
