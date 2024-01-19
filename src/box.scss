@@ -1,0 +1,65 @@
+// - imports
+@import "variables";
+@import "typography";
+
+// - globals
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vazir-regular;
+}
+
+// - buttons
+// The filled button’s contrasting surface color makes it the most prominent button
+.filled-button {
+    font-size: 16px;
+    color: $on-primary-color;
+    background-color: $primary-color;
+    padding: 5px 25px;
+    border: 1px solid $primary-color;
+    border-radius: $parent-radius;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+    &:hover {
+        border: 1px solid $primary-color-hover;
+        background-color: $primary-color-hover;
+    }
+}
+
+// Filled tonal buttons have a lighter background color and darker label color, making them less visually prominent than a regular, filled button
+.filled-tonal-button {
+    font-size: 16px;
+    color: $on-primary-container;
+    background-color: $primary-container;
+    padding: 5px 25px;
+    border: 1px solid $primary-container;
+    border-radius: $parent-radius;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+    &:hover {
+        border: 1px solid $primary-container-hover;
+        background-color: $primary-container-hover;
+    }
+}
+
+// Use an outlined button for actions that need attention but aren’t the primary action
+.outlined-button {
+    font-size: 16px;
+    color: $primary-color;
+    background-color: rgba($color: $primary-color, $alpha: 0);
+    padding: 5px 25px;
+    outline: none;
+    border: 1px solid $primary-color;
+    border-radius: $parent-radius;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $on-primary-color;
+    }
+}
+
